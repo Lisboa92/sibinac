@@ -8,20 +8,18 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace SIBINAC
+namespace SIBINAC.Formularios
 {
-    public partial class formLogin : Form
+    public partial class FormParametros : Form
     {
-        public formLogin()
+        public FormParametros()
         {
             InitializeComponent();
         }
 
-        private void btnEntrar_Click(object sender, EventArgs e)
+        private void groupBox3_Enter(object sender, EventArgs e)
         {
-            formHome formHome = new formHome();
-            formHome.Show();
-            this.Hide();
+
         }
     }
 }

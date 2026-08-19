@@ -361,3 +361,29 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+
+# ==========================================
+# Personalizações e Segurança
+# ==========================================
+
+# Arquivos de ambiente e credenciais
+*.env
+*.env.local
+*.config.user
+appsettings.Development.json
+appsettings.Local.json
+
+# Instalações / Executáveis locais
+*.exe
+*.msi
+
+# Bancos de dados locais / SQLite
+*.sqlite
+*.sqlite3
+*.db
+*.db-shm
+*.db-wal
+
+# Pastas de Uploads / Mídia temporária local
+[Uu]ploads/
+[Mm]edia/

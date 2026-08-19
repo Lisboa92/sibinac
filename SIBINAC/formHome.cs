@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SIBINAC.PopUps;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -16,5 +17,24 @@ namespace SIBINAC
         {
             InitializeComponent();
         }
+
+        private void formHome_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnSair_Click(object sender, EventArgs e)
+        {
+            Confirmacao confirmacao = new Confirmacao();
+            confirmacao.Show(); 
+        }
+
+        private void btnPessoa_Click(object sender, EventArgs e)
+        {
+            formPessoa fp = new formPessoa();
+            fp.Show();
+        }
     }
+
+    
 }
